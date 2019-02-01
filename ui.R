@@ -1,5 +1,5 @@
-token <- readRDS("droptoken.rds")
-rdrop2::drop_acc(dtoken = token)
+# token <- readRDS("droptoken.rds")
+# rdrop2::drop_acc(dtoken = token)
 require(shiny)
 
 ui <- fluidPage(theme = "bootstrap.css",

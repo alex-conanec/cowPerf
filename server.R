@@ -1,5 +1,5 @@
-token <- readRDS("droptoken.rds")
-rdrop2::drop_acc(dtoken = token)
+# token <- readRDS("droptoken.rds")
+# rdrop2::drop_acc(dtoken = token)
 require(shiny)
 
 server <- function(input, output, session) {
@@ -441,7 +441,7 @@ server <- function(input, output, session) {
     require(OptFilBov)
     plot(cow_perf_reac_S1(), models, choice = input$graph_choice, ylim = c(-2, 2), main = 'Vache 1',
          label_angle = 90, fixed_value = ecoute_S2()$list_index, radial.lim = c(-3, 3), R = 3, 
-         bg_par = rgb(242, 103, 0, maxColorValue = 255))
+         bg_par = rgb(252, 181, 101, maxColorValue = 255))
     
   })
   
@@ -450,7 +450,7 @@ server <- function(input, output, session) {
     require(OptFilBov)
     plot(cow_perf_reac_S2(), models, choice = input$graph_choice, ylim = c(-2, 2), main = 'Vache 2',
          label_angle = 90, fixed_value = ecoute_S2()$list_index, radial.lim = c(-3, 3), R = 3, 
-         bg_par = rgb(242, 103, 0, maxColorValue = 255))
+         bg_par = rgb(252, 181, 101, maxColorValue = 255))
     
   })
   
