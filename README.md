@@ -6,3 +6,5 @@ This is the code used to develop a shiny app which allows to visualize the link 
 * Sensory quality of the meat
 
 To access at the app follow this link: https://alexandre-conanec.shinyapps.io/cowperf/
+
+[![DOI](https://zenodo.org/badge/140846506.svg)](https://zenodo.org/badge/latestdoi/140846506)
